@@ -1,0 +1,76 @@
+@import url('header.css');
+@import url('font.css');
+@import url('bar.css');
+@import url('content.css');
+@import url('header.css');
+@import url('about.css');
+@import url('contact.css');
+
+
+/* <?php include "./components/header.php" ?> */
+
+:root {
+	--main_black: #222222;
+	--blue: #337AB7;
+	--dark_blue: #00487F;
+	--duration: all 0.5s ease;
+	--shad: 0 0.2vw 0.5vw #2222224f;
+}
+*{
+	cursor: auto;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: clamp(12px, 0.8vw, 20px);
+}
+li {
+  list-style-type: none;
+	cursor: pointer;
+}
+h1,h2,h3,p,span{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: clamp(12px, 0.8vw, 20px);
+	color: var(--main_black);
+}
+.button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: clamp(12px, 0.8vw, 20px);
+	border-style: solid;
+	border-width: 0.15vw;
+	border-color: var(--blue);
+	border-radius: 0.5em;
+	padding: 0.2em 1em;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	background-color: transparent;
+	color: var(--blue);
+}
+.button:hover{
+	color: #ffffff;
+	background-color: var(--blue);
+	border-color: var(--blue);
+}
+
+.button:active{
+	color: #ffffff;
+	background-color: var(--dark_blue);
+	border-color:  var(--dark_blue);
+}
+.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0.1vw !important;
+	width: 0.3vw;
+	height: 0.3vw;
+}
+.swiper-button-next:after,.swiper-button-prev:after {
+	font-size: clamp(12px, 1.8vw, 20px) !important;
+	color: var(--blue);
+	margin: 2vw;
+}
+

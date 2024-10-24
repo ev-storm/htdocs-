@@ -1,0 +1,155 @@
+.about-swiper{
+	padding: 3vw 0 0 0 !important;
+}
+.about-title{
+	display: flex;
+	flex-direction: column;
+	padding: 1vw 2vw 0 2vw;
+}
+.about-title_text {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.about-title_text-slide-1{
+	margin: 0 0 0 2vw;
+	width: 60%;
+}
+
+
+/* .about-title_text div h2{
+	font-size: 2vh;
+	margin-top: 2vw;
+	font-weight: 500;
+	color: #3b3b3b;
+} */
+
+.about-title h1{
+	font-size: 4vh;
+	font-weight: 500;
+	color:var(--blue);
+	margin-bottom: 6vh;
+}
+
+.about-title_text-1{
+	font-size: 2.3vh;
+	color: var(--dark_blue);
+	font-weight: 500;
+	line-height: 3vh;
+}
+
+.about-title_text-main{
+	margin-top: 2vw;
+	width: 100%;
+	height: fit-content;
+}
+
+
+
+
+.btn-about{
+	font-family: "Montserrat", sans-serif;
+	margin-top: 2vw;
+	font-size: 0.9vw;
+	background-color: var(--blue);
+	color: #ffffff;
+	border-style: none;
+	padding: 0.6vw 1vw;
+	border-radius: 0.4vw;
+	cursor: pointer;
+	font-weight: 500;
+}
+.btn-about:hover{
+	transition: var(--duration);
+	background-color: var(--dark_blue);
+}
+
+
+.btn-about-con{
+	width: 100% !important;
+	position: relative;
+	display: flex;
+	justify-content: end;
+}
+.about_btn_text{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5vw;
+	padding: 0 0 0 0;
+	margin-top: 5vh;
+}
+.about_btn_text button{
+	font-family: "Montserrat", sans-serif;
+	font-size: 2vh;
+	color: var(--dark_blue);
+	font-weight: 500;
+	cursor: pointer;
+	background-color: transparent;
+	border-style: none;
+	
+}
+.about_btn_text button:hover{
+	color: var(--blue);
+	transition: var(--duration);
+}
+.wrapper {
+	position: relative;
+	width: 70vh;
+	display: flex;
+	align-items: center;
+}
+.under {
+	position: absolute;
+	width: 100%;
+	height: fit-content;
+	z-index: 1;
+}
+.cover {
+	position: relative;
+	width: 100%;
+	height: fit-content;
+	z-index: 2;
+	clip-path: inset(0 100% 0 0);
+}
+.content-about{
+	margin: 1vw 0 0 1vw;
+}
+.about-carts-swiper{
+	width: 40vw;
+	background-color: #3b3b3b;
+	height: 20vw;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.about-carts{
+	background-color: grey;
+	font-size: 18px;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.swiper-v{
+	height: 30vh;
+	overflow: hidden;
+}
+.swiper-v-slide {
+	display: flex !important; 
+	justify-content: start;
+	align-items: center;
+}
+
+.swiper-v-slide h3{
+	font-size: 1.8vh;
+	font-weight: 500;
+	line-height: 2.5vh;
+	height: 9vh;
+	color: var(--dark_blue);
+	display: flex;
+	align-items: center;
+}	
+.swiper-v-slide img{
+	height: 5vh;
+}
