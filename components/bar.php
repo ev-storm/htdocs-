@@ -12,8 +12,6 @@
 				<input type="phone" placeholder="номер телефона">
 				<button class="button">Отправить</button>
 			</form>
-			<h3 class="C">
-			Информация о сайте и компании
-		</h3>
+			
 		</div>
 	</div>

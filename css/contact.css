@@ -49,15 +49,14 @@
 }
 .contact_title h1{
 	color: var(--blue);
-	font-size: clamp(15px, 1.5vw, 25px);
-	/* font-size: 25px; */
+	font-size: var(--h1);
 	font-weight: 500;
 	margin-bottom: 2vh;
 	margin-top: 1vh;
 }
 .contact_item-text h2{
 	color: var(--dark_blue);
-	font-size: clamp(12px, 0.8vw, 20px);
+	font-size: var(--h2);
 	line-height: clamp(15px, 4.5vh, 20px);
 	font-weight: 500;
 }
@@ -68,20 +67,20 @@
 }
 .contact_item-text div h3{
 	color: var(--blue);
-	font-size: clamp(12px, 0.8vw, 20px);
+	font-size: var(--h2);
 	line-height: clamp(15px, 3vh, 20px);
 	font-weight: 500;
 }
 .contact_item-text div h3 span{ 
 	color: var(--dark_blue);
-	font-size: clamp(12px, 0.8vw, 20px);
+	font-size: var(--h2);
 	line-height: clamp(15px, 4.5vh, 20px);
 	font-weight: 500;
 }
 
 .contact_item-text h3{
 	color: var(--blue);
-	font-size: clamp(12px, 0.8vw, 20px);
+	font-size: var(--h2);
 	line-height: clamp(15px, 3vh, 20px);
 	font-weight: 500;
 }
@@ -91,7 +90,7 @@
 }
 .contact_cart-title h1{
 	color: var(--dark_blue);
-	font-size: clamp(12px, 1vw, 20px);
+	font-size: var(--h1);
 	font-weight: 500;
 }
 .contact_cart-title div img{
@@ -115,13 +114,13 @@
 }
 .contact_cart h2{
 	color: var(--dark_blue);
-	font-size: clamp(12px, 0.8vw, 20px);
+	font-size: var(--h2);
 	font-weight: 500;
 	line-height: clamp(15px, 3vh, 20px);
 }
 .contact_cart h2 span{
 	color: var(--blue);
-	font-size: clamp(12px, 0.8vw, 20px);
+	font-size: var(--h2);
 	font-weight: 400;
 }
 .contact_map iframe{

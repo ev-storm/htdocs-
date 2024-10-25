@@ -12,31 +12,28 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
+.about-title_text h2{
+	font-size: var(--h22);
+	color: var(--dark_blue);
+	line-height: var(--lh);
+}
 .about-title_text-slide-1{
 	margin: 0 0 0 2vw;
 	width: 60%;
 }
 
-
-/* .about-title_text div h2{
-	font-size: 2vh;
-	margin-top: 2vw;
-	font-weight: 500;
-	color: #3b3b3b;
-} */
-
 .about-title h1{
-	font-size: 4vh;
-	font-weight: 500;
+	font-size: var(--h1);
+	font-weight: 400;
 	color:var(--blue);
 	margin-bottom: 6vh;
 }
 
 .about-title_text-1{
-	font-size: 2.3vh;
+	font-size: var(--h22);
 	color: var(--dark_blue);
-	font-weight: 500;
-	line-height: 3vh;
+	font-weight: 400;
+	line-height: var(--lh);
 }
 
 .about-title_text-main{
@@ -51,7 +48,7 @@
 .btn-about{
 	font-family: "Montserrat", sans-serif;
 	margin-top: 2vw;
-	font-size: 0.9vw;
+	font-size: var(--h2);
 	background-color: var(--blue);
 	color: #ffffff;
 	border-style: none;
@@ -77,13 +74,13 @@
 	flex-wrap: wrap;
 	gap: 0.5vw;
 	padding: 0 0 0 0;
-	margin-top: 5vh;
+	margin-top: 2vh;
 }
 .about_btn_text button{
 	font-family: "Montserrat", sans-serif;
-	font-size: 2vh;
+	font-size: var(--h22);
 	color: var(--dark_blue);
-	font-weight: 500;
+	font-weight: 400;
 	cursor: pointer;
 	background-color: transparent;
 	border-style: none;
@@ -124,7 +121,7 @@
 }
 .about-carts{
 	background-color: grey;
-	font-size: 18px;
+	font-size: var(--h2);
 	height: auto;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -142,14 +139,14 @@
 }
 
 .swiper-v-slide h3{
-	font-size: 1.8vh;
-	font-weight: 500;
-	line-height: 2.5vh;
+	font-size: var(--h2);
+	font-weight: 400;
+	line-height: var(--lh);
 	height: 9vh;
 	color: var(--dark_blue);
 	display: flex;
 	align-items: center;
 }	
 .swiper-v-slide img{
-	height: 5vh;
+	height: 6vh;
 }
