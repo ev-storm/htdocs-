@@ -19,8 +19,11 @@
 .menu-bar-con {
   margin: 5vw 0;
 }
+.menu-bar-con ul{
+  margin:1.5vh 0 1.5vh 0;
+}
 .menu-bar-con ul li {
-  margin: 0.5vw 0;
+  margin: 0.5vh 0;
 }
 li h1 {
   color: #ffffff;
@@ -62,21 +65,21 @@ li h1 {
 	color: #ffffffcf;
 	font-weight: 300;
 	cursor: pointer;
-	font-size: var(--h3);
+	font-size: var(--h22);
 	transition: var(--duration);
 }
 .menu-bar h1:hover{
 	color: #ffffff;
 	font-weight: 300;
 	cursor: pointer;
-	font-size: var(--h3);
+	font-size: var(--h22);
 	transition: var(--duration);
 }
 .menu-bar.active h1{
 	color: #ffffff;
 	font-weight: 500;
 	cursor: pointer;
-	font-size: var(--h3);
+	font-size: var(--h22);
 	transition: var(--duration);
 }
 
@@ -86,7 +89,7 @@ li h1 {
 	font-weight: 300;
 	margin-left: 1vw;
 	cursor: pointer;
-	font-size: var(--h3);
+	font-size: 1.4vh;
 }
 .under-menu.active h2{
 	transition: var(--duration);
@@ -105,7 +108,7 @@ li h1 {
 	color: #ffffff99;
 	font-weight: 300;
 	cursor: pointer;
-	font-size: var(--h2);
+	font-size: var(--h22);
 	transition: var(--duration);
 }
 .bar-item h1:hover{
@@ -113,7 +116,7 @@ li h1 {
 	font-weight: 300;
 	margin-left: 0.5vw;
 	cursor: pointer;
-	font-size: var(--h2);
+	font-size: var(--h22);
 	transition: var(--duration);
 }
 .bar-item.active h1{
@@ -121,7 +124,7 @@ li h1 {
 	font-weight: 600;
 	margin-left: 0.5vw;
 	cursor: pointer;
-	font-size: var(--h2);
+	font-size: var(--h22);
 	transition: var(--duration);
 }
 
@@ -142,7 +145,7 @@ li h1 {
 .call-back h2{
 	color: #ffffff99;
 	font-weight: 300;
-	font-size: var(--h3);
+	font-size: 1.5vh;
 }
 .call-back form{
 	margin-top: 1vw;
@@ -153,7 +156,7 @@ li h1 {
 	border-radius: 0.5em;
 	border-width: 0.1vw;
 	border-color: #ffffff;
-	font-size: var(--h3);
+	font-size: 1.5vh;
 	padding: 0.2vw 0.3vw;
 	color: #ffffff;
 	margin: 0.3vw 0;
@@ -164,13 +167,13 @@ li h1 {
 	color: #ffffff69;
 	font-weight: 300;
 	padding-left: 0.5vw;
-	font-size: var(--h3);
+	font-size: 1.5vh;
 }
 .call-back form button{
 	color: var(--blue);
 	width: 100%;
 	background-color: #ffffff;
-	font-size: var(--h3);
+	font-size: 1.5vh;
 }
 .C{
 	margin-top: 2vw;

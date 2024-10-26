@@ -16,8 +16,8 @@
 					<h1>Оборудование</h1>
 				</li>
 
-				<li class="bar-item slide-button" data-slide="4" value="логистика">
-					<h1>Логистика</h1>
+				<li class="bar-item slide-button" data-slide="4" value="услуги">
+					<h1>Услуги</h1>
 				</li>
 
 			</ul>
